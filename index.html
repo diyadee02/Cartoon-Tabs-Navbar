@@ -13,182 +13,129 @@
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-info">
-      <div class="container">
-        <div class="navbar-brand">
-          <img src="pics/logo-removebg-preview.png" alt="nav bar" />
+    <nav class="navbar navbar-expand-lg bg-info">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="pics/logo-removebg-preview.png" alt="nav bar" style="max-height: 50px;" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav nav-pills ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="pill" href="#home">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="pill" href="#link">LINKS</a>
+            </li>
+          </ul>
         </div>
-        <!-- Links -->
-        <ul class="navbar-nav nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link active" data-bs-toggle="pill" href="#home"
-              >HOME</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#about">ABOUT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="pill" href="#link">LINKS</a>
-          </li>
-        </ul>
       </div>
     </nav>
     <!-- tab content -->
     <div class="tab-content">
       <div class="tab-pane container fade" id="home">
-        <div class="container class">
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/nobi.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">nobita:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+        <div class="row g-4 py-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/nobi.jpeg" class="card-img-top img-fluid" alt="nobita" />
+              <div class="card-body">
+                <h2 class="card-title">nobita:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/doremon.png" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Doremon:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/doremon.png" class="card-img-top img-fluid" alt="Doremon" />
+              <div class="card-body">
+                <h2 class="card-title">Doremon:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/jiya.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">jiyan:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/jiya.jpeg" class="card-img-top img-fluid" alt="jiyan" />
+              <div class="card-body">
+                <h2 class="card-title">jiyan:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="tab-pane container fade" id="about">
-        <div class="container class">
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/jerry.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Tom:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+        <div class="row g-4 py-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/jerry.jpeg" class="card-img-top img-fluid" alt="Tom" />
+              <div class="card-body">
+                <h2 class="card-title">Tom:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/both.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title"> tom and jerry:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/both.jpeg" class="card-img-top img-fluid" alt="tom and jerry" />
+              <div class="card-body">
+                <h2 class="card-title">tom and jerry:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/tom.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">tom:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/tom.jpeg" class="card-img-top img-fluid" alt="tom" />
+              <div class="card-body">
+                <h2 class="card-title">tom:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
       <div class="tab-pane container fade" id="link">
-        <div class="container class">
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/patlu.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Patluu:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+        <div class="row g-4 py-4">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/patlu.jpeg" class="card-img-top img-fluid" alt="Patluu" />
+              <div class="card-body">
+                <h2 class="card-title">Patluu:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/motu.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">Motu:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/motu.jpeg" class="card-img-top img-fluid" alt="Motu" />
+              <div class="card-body">
+                <h2 class="card-title">Motu:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
-          <div class="card">
-            <div class="card-img">
-              <img src="pics/motu patlu.jpeg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title">motu and patluu:</h2>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                accusamus inventore eos quidem doloribus? Vel minus fuga ipsa
-                earum delectus!
-              </p>
-              <a href="#demo" class="btn btn-info" data-bs-toggle="collapse"
-                >submit</a
-              >
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="card h-100">
+              <img src="pics/motu patlu.jpeg" class="card-img-top img-fluid" alt="motu and patluu" />
+              <div class="card-body">
+                <h2 class="card-title">motu and patluu:</h2>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni accusamus inventore eos quidem doloribus? Vel minus fuga ipsa earum delectus!</p>
+                <a href="#demo" class="btn btn-info" data-bs-toggle="collapse">submit</a>
+              </div>
             </div>
           </div>
         </div>
